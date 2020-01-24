@@ -5,7 +5,7 @@ Created on 12 Oct 2018
 '''
 
 
-from scc_ip.base_module import BaseModule
+from base_module.BaseModule import BaseModule
 import speech_recognition as spr
 import wave
 
@@ -27,13 +27,11 @@ class AudioTranscriber(BaseModule):
         self.audioShape = 320
         self.max_len = 160 
         self.recognizer = spr.Recognizer()
-        #self.source = spr.Microphone()
-                     
+                             
     
     def configure(self, rf):
         result = BaseModule.configure(self, rf)
-        #print "yarpview created %s" %self.inputPort['image'].getName()
-        
+                
                 
         if rf.check("maxSilence"):
             self.max_con_si = rf.find("maxSilence").asInt()
@@ -46,8 +44,7 @@ class AudioTranscriber(BaseModule):
         
         if not self.record:
             print "audio is not being recorded"
-        #self.writeFolder = "/home/eli/Documents/data/CompleteRobot/Audio"
-        
+                
         wf = rf.check("writeFolder")
         if wf: 
             self.writeFolder = rf.find("writeFolder").asString()
@@ -77,9 +74,9 @@ class AudioTranscriber(BaseModule):
         print "calibrated for background noise"
     
     def runTranscriber(self):
-        transcription = raw_input("say: ")
-        self.sendTranscription(transcription)
-        '''
+        #transcription = raw_input("say: ")
+        #self.sendTranscription(transcription)
+        
         transcription = None
         print "listening"
         with spr.Microphone() as source:
@@ -98,9 +95,9 @@ class AudioTranscriber(BaseModule):
                 
             except:
                 self.sendTrigger(0)
-                #print "something went wrong"
+                
             
-        '''    
+            
         
     
     def updateModule(self):       

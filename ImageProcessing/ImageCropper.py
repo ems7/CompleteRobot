@@ -4,10 +4,8 @@ Created on 13 Nov 2019
 @author: eli
 '''
 
-from scc_ip.base_module import BaseModule
-from yarp import Bottle
+from base_module.BaseModule import BaseModule
 import cv2
-import numpy as np
 
 class ImageCropper(BaseModule):
     

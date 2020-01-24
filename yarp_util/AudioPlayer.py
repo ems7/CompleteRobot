@@ -5,7 +5,7 @@ Created on 16 Oct 2018
 '''
 
 import numpy as np
-from scc_ip.base_module import BaseModule
+from base_module.BaseModule import BaseModule
 from auditok import ADSFactory, player_for
 import cv2
 

@@ -6,7 +6,7 @@ Created on 12 Oct 2018
 
 
 import numpy as np
-from scc_ip.base_module import BaseModule
+from base_module.BaseModule import BaseModule
 from auditok import ADSFactory, AudioEnergyValidator, StreamTokenizer, player_for, dataset
 #import cv2
 from sklearn.preprocessing import MinMaxScaler

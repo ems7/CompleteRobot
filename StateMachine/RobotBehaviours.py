@@ -3,7 +3,7 @@ Created on 12 Nov 2019
 
 @author: eli
 '''
-from scc_ip.base_module import BaseModule
+from base_module.BaseModule import BaseModule
 import numpy as np
 from Utterances import Utterances
 import cv2

@@ -4,7 +4,7 @@ Created on 13 Nov 2019
 @author: eli
 '''
 from net import NET
-from scc_ip.base_module import BaseModule
+from base_module.BaseModule import BaseModule
 import cv2
 import numpy as np
 import os.path as op
