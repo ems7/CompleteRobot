@@ -42,7 +42,7 @@ After starting a yarpserver and the Yarp OpenCV Grabber Device and a RASA NLU se
 # Training the Rasa NLU
 Data for training the RASA NLU can be found in NLU/data
 
-#Pretraining the Multimodal Autoencoder
+# Pretraining the Multimodal Autoencoder
 Data can be found [here](https://bit.ly/38lNh37)
 
 # Notes
