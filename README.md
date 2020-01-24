@@ -48,4 +48,5 @@ Data can be found [here](https://bit.ly/38lNh37)
 # Notes
 This is an incomplete version of this demo. Future work will replace the image cropper with an image segmentation system, currently objects are assumed to always be in the centre of the image.
 The MAE currently uses a one-hot encoding of language, this will be replaced with a word2vec encoding to allow for an expanding vocabulary.
+This repo will be updated to python 3 in future.
 
