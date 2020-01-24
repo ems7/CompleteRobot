@@ -1,7 +1,7 @@
 # CompleteRobot
 
 This repository contains code for running a simple interaction with the iCub Robot. 
-Using multimodal Representation Learning, the user is able to teach the iCub about different objects and their visual attributes.
+Using Multimodal Representation Learning, the user is able to teach the iCub about different objects and their visual attributes.
 For more details see Multimodal Representation Learning for Human Robot Interaction by Eli Sheppard and Katrin S. Lohan published at HRI 2020.
 
 If you use this work please cite:
